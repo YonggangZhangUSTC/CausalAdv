@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
-from ada_mt_utils import get_s_pre, SoftCrossEntropy
+from causaladv_utils import get_s_pre, SoftCrossEntropy
 
 
 def adp_pgd_attack(model, images, labels, step_size, k, eps, model_g, basis, loss_fn='ce'):
