@@ -1,8 +1,6 @@
 # CausalAdv:Adversarial Robustness through the lens of causality
 
-- Neural Networks, though seemingly accurate, can be easily fooled by small, intentional changes in the input data called adversarial attacks.
-- This highlights the need for robust models that maintain accuracy even under such attacks.
-- Thus, the paper attempts to train the model on such adversarial examples in order to become resistant/robust against such manipulations in the data.
+Deep Neural Networks, though seemingly accurate, can be easily fooled by small, intentional changes in the input data called adversarial attacks.This highlights the need for robust models that maintain accuracy even under such attacks. Thus, the paper attempts to train the model on such adversarial examples in order to become resistant/robust against such manipulations in the data.
 
 
 - Tried running the code locally, added reqs and a Readme file as well.
