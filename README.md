@@ -16,6 +16,6 @@ and
 ```bash
 python causaladv.py
 ```
-- Initially, comment out lines 214-251 in `causaladv.py`, and uncomment line 213 (run the model from scratch) to obtain `cifar10-adam_13-best.pth`.
-- After model is trained, comment out line 213 and uncomment lines 214-251 to check model robustness.
+- Initially, comment out lines 214-250 in `causaladv.py`, and uncomment line 213 (run the model from scratch) to obtain `cifar10-adam_13-best.pth`.
+- After model is trained, comment out line 213 and uncomment lines 214-250 to check model robustness.
 - In case of a CPU machine, clone on Google Colab with runtime type: T4 GPU
