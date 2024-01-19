@@ -7,8 +7,7 @@ import torch.nn.functional as F
 from pgd_attack import pgd_attack, adp_pgd_attack
 from wideresnet import WideResNet
 from resnet import ResNet18
-from causaladv_utils import pgd, set_deterministic, get_dataset, get_args_cifar10, init_anchor, PredYWithS, \
-    get_s_pre, SoftCrossEntropy, Basis
+from causaladv_utils import pgd, set_deterministic, get_dataset, get_args_cifar10, init_anchor, PredYWithS,get_s_pre, SoftCrossEntropy, Basis
 
 set_deterministic(0)
 args = get_args_cifar10()
@@ -211,6 +210,7 @@ def model_robust(model, num_steps, loss_fn, adaptive=False, model_g=None, basis=
 
 
 if __name__ == "__main__":
+   # model_train()
     if args.train:
         model_train()
     else:
